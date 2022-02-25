@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Covid 19 Tracker",
+    "version": "1.0.0",
+    "description": "Covid tracker with made JavaScript",
+    "icons": {
+        "128": "128.png"
+    },
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js ; object-src 'self'"
+}

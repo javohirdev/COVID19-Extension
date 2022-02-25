@@ -1,0 +1,33 @@
+body{
+    background-color: #f4f4f7;
+}
+.general{
+    text-align: center;
+    padding: 0 20px;
+}
+img{
+    width: 65%;
+}
+.formData{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+.formData > input{
+    background-color: transparent;
+    border: 1px solid #57b7b3;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 15px;
+    outline: none!important;
+}
+.formData > button{
+    margin-left: 20px;
+    background-color: #57b7b3;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+p{
+    font-size: 17px;
+}

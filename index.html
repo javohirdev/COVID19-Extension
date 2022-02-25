@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="general">
+    <img src="./covidlogo.png" alt="Covid logo">
+    <form class="formData">
+        <input type="text" class="country-name" placeholder="Davlat nomi">
+        <button class="search-btn">Qidiruv...</button>
+    </form>
+    <div class="container">
+        <div class="loading">Yuklanmoqda...</div>
+        <div class="errors"></div>
+        <div class="results">
+            <p><strong>Yangi kasallanishlar:</strong><span class="todayCases"></span></p>
+            <p><strong>Yangi o'limlar:</strong><span class="todayDeaths"></span></p>
+            <p><strong>Jami kasallanishlar:</strong><span class="cases"></span></p>
+            <p><strong>Jami o'lim:</strong><span class="deaths"></span></p>
+            <p><strong>Jami tuzalish:</strong><span class="recovered"></span></p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
